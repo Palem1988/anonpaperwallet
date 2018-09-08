@@ -1,7 +1,7 @@
 import React, { Component }     from 'react';
 import { Row, Col, Button, FormGroup, ControlLabel, FormControl, Table, Radio }
                                 from 'react-bootstrap';
-import { address, zaddress }    from 'zclassicjs';
+import { address, zaddress }    from 'anonjs';
 
 class Bulk extends Component {
     constructor(props) {

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Row, Col, Button, FormGroup, ControlLabel, Radio, FormControl }
                             from 'react-bootstrap';
 import { QRCode }           from 'react-qr-svg';
-import zclassicjs           from 'zclassicjs';
+import zclassicjs           from 'anonjs';
 
 class Brain extends Component {
     constructor(props) {

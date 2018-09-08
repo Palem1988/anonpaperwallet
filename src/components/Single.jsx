@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Row, Col, Button, FormGroup, Radio }
                             from 'react-bootstrap';
 import { QRCode }           from 'react-qr-svg';
-import zclassicjs           from 'zclassicjs';
+import zclassicjs           from 'anonjs';
 
 class Single extends Component {
     constructor(props) {

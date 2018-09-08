@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    background: black url("bg.jpg") center center repeat;
+    /* background: black url("bg.jpg") center center repeat; */
     -webkit-background-size: auto;
     -moz-background-size: auto;
     -o-background-size: auto;
@@ -61,7 +61,7 @@ a:hover{
   position: absolute;
   padding: 6px;
   border-radius: 6px;
-  background-color: #CF6C2E;
+  background-color: #ed1e24;
   z-index: 10;
 }
 .max-width {
@@ -144,7 +144,7 @@ a:hover{
     margin: 0.6%;
 }
 .zenTabsWrap > ul > li > a:hover {
-  color: #813100;
+  color: #ed1e24;
 }
 .zenTabs {
     text-align: left;
@@ -167,7 +167,7 @@ a:hover{
     text-transform: capitalize;
     /*width: 118px;*/
     outline: none;
-    background-color: #813100;
+    background-color: #ed1e24;
     color: #fff;
     font-weight: 500;
 }
@@ -179,7 +179,7 @@ a:hover{
 .zenTabsWrap .nav-pills > li.active > a:focus,
 .zenTabsWrap .nav-pills > li.active > a:hover {
     background-color: #FFFFFF;
-    color: #813100;
+    color: #ed1e24;
 }
 
 .zenTabsWrap .nav-pills>li+li {
@@ -200,16 +200,16 @@ a:hover{
     background-color: #fff;
     background-image: none;
     background-repeat: repeat-x;
-    border: 1px solid #813100;
+    border: 1px solid #ed1e24;
     border-radius: 0;
-    color: #813100;
+    color: #ed1e24;
     padding: 3px 10px;
     text-shadow: 0 0;
 }
 .btn-default:hover{
-    background-color: #813100;
+    background-color: #ed1e24;
     color: #fff;
-    border-color: #813100;
+    border-color: #ed1e24;
 }
 
 hr{
@@ -271,7 +271,7 @@ hr{
 /**--------------footer-css---------**/
 
 #footer{
-    background-color: #813100;
+    background-color: #a8aaac;
     padding: 63px 0px;
 }
 #footer .footerSocialWrap{
@@ -354,7 +354,7 @@ hr{
         display: block;
         left: 33.5%;
         top: 47.5%;
-        color: #813100;
+        color: #ed1e24;
         font-weight: 900;
         font-size: 0.66em;
     }
