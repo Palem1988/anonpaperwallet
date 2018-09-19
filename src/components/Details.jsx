@@ -148,7 +148,7 @@ class Details extends Component {
                     <Row className="r2">
                         <Col xs={6} className="max-width">
                             <h1 style={{color:'green'}}>Public</h1>
-                            <h3>ZCL Address</h3>
+                            <h3>ANON address</h3>
                             <div>
                                 <QRCode
                                     bgColor="#FFFFFF"

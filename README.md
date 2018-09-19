@@ -1,2 +1,3 @@
-# UNDER DEVELOPMENT - DO NOT USE
-JavaScript Client-Side ANON Wallet Generator using [zclassicjs library](https://github.com/BTCP-community/zclassicjs) based on [zenaddress](https://github.com/ZencashOfficial/zenaddress)
+# ANON Paper Wallet Generator
+
+JavaScript Client-Side ANON Wallet Generator using [ANONjs library](https://github.com/anonymousbitcoin/anonjs) based on [zclassicjs](https://github.com/BTCP-community/zclassicjs)

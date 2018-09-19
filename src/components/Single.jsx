@@ -100,7 +100,7 @@ class Single extends Component {
                     <Row className="r2">
                         <Col xs={3} className="max-width singleTabs col-xs-offset-3">
                             <h1 style={{color:'green'}}>Public</h1>
-                            <h3>ZCL Address</h3>
+                            <h3>ANON address</h3>
                             <div>
                                 <QRCode
                                     bgColor="#FFFFFF"
@@ -142,30 +142,27 @@ class Single extends Component {
                     <Col>
                         <div>
                           <p>
-                            <b>A Zclassic Wallet</b> can be as simple as a single pairing of a Zclassic address with its corresponding Zclassic private key. You can share your address to receive ZCL payments, however your private key is what allows you to unlock, manage, and send your funds - <b>keep it safe</b>.
+                            <b>An ANON Wallet</b> can be as simple as a single pairing of an ANON address with its corresponding ANON private key. You can share your address to receive ANON payments, however your private key is what allows you to unlock, manage, and send your funds - <b>keep it safe</b>.
                         </p>
                         <p>
-                            <b>**To safeguard this wallet**</b> you must print or otherwise record the Zclassic address and private key. It is important to make a backup copy of the private key and store it in a safe location. This site does not have knowledge of your private key. If you leave/refresh the site or press the "Generate New Address" button then a new private key will be generated and the previously displayed private key will not be retrievable. Your Zclassic private key should be kept a secret. Whomever you share the private key with has access to spend all the ZCL associated with that address. If you print your wallet then store it in a zip lock bag to keep it safe from water. Treat a paper wallet like cash.
+                            <b>**To safeguard this wallet**</b> you must print or otherwise record the ANON address and private key. It is important to make a backup copy of the private key and store it in a safe location. This site does not have knowledge of your private key. If you leave/refresh the site or press the "Generate New Address" button then a new private key will be generated and the previously displayed private key will not be retrievable. Your ANON private key should be kept a secret. Whomever you share the private key with has access to spend <b>all</b> the ANON associated with that address. If you print your wallet then store it in a zip lock bag to keep it safe from water. Treat a paper wallet like cash.
                         </p>
                         <br/>
                         <p>
-                            <b>Add funds</b> to this wallet by instructing others to send ZCL to your ZCL address.
+                            <b>Add funds</b> to this wallet by instructing others to send ANON to your ANON address.
                         </p>
                         <p>
-                            <b>Check your balance</b> by entering your ZCL address on one of these explorers:
+                            <b>Check your balance</b> by entering your ANON address on one of these explorers:
                         </p>
                         <ul style={{listStyleType: 'none'}}>
-                            <li><a href="http://zclassicexplorer.com/" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'underline'}}>zclassicexplorer.com</a></li>
+                            <li><a href="https://explorer.anonfork.io/insight/" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'underline'}}>explorer.anonfork.io</a></li>
                         </ul>
                         <ul style={{listStyleType: 'none'}}>
-                            <li><a href="https://zcl-explorer.com/insight/" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'underline'}}>zcl-explorer.com</a></li>
-                        </ul>
-                        <ul style={{listStyleType: 'none'}}>
-                            <li><a href="http://explorer.zclmine.pro/" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'underline'}}>explorer.zclmine.pro</a></li>
+                            <li><a href="https://explorer.anon.zeltrez.io/" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'underline'}}>explorer.anon.zeltrez.io</a></li>
                         </ul>
                         <br/>
                         <p>
-                            <b>To spend your ZCL,</b> you can download the <a href='https://github.com/ZclassicOfficial/Zclassic-swing-wallet-ui/releases' target="_blank" rel="noopener noreferrer">Zclassic Swing Wallet</a> and import your private key to the p2p client wallet. It is <b>**strongly discouraged**</b> to spend directly from this address without importing the private key into a wallet application, since certain precautions need to be taken so you receive your change!
+                            <b>To spend your ANON,</b> you can download the <a href='https://github.com/anonymousbitcoin/anon-full-node-wallet/releases' target="_blank" rel="noopener noreferrer">ANON Swing Wallet</a> or the <a href='https://zeltrez.io/' target="_blank" rel="noopener noreferrer">Zeltrez Lite Wallet</a> and import your private key to the p2p client wallet. It is <b>**strongly discouraged**</b> to spend directly from this address without importing the private key into a wallet application, since certain precautions need to be taken so you receive your change!
                           </p>
                         </div>
                     </Col>

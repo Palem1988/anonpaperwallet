@@ -4,9 +4,7 @@ import {randomBytes}                    from 'crypto-browserify';
 
 import Single   from "./Single";
 import Brain    from "./Brain";
-import Bulk     from "./Bulk";
 import Details  from "./Details";
-import Multisig from "./Multisig";
 import Paper    from "./Paper";
 import Entropy  from "./Entropy";
 
@@ -30,10 +28,8 @@ export default class MainPanel extends Component {
         return [
             { id: 0,    title: "Single Address",        content: Single },
             { id: 1,    title: "Paper Wallet",          content: Paper },
-            { id: 2,    title: "Brain Wallet",          content: Brain },
-            { id: 3,    title: "Multi-Sig Wallet",      content: Multisig },
-            { id: 4,    title: "Bulk Wallet",           content: Bulk },
-            { id: 5,    title: "Wallet Details",        content: Details }
+			{ id: 2,    title: "Brain Wallet",          content: Brain }
+
         ];
     }
 
