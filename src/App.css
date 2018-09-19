@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    /* background: black url("bg.jpg") center center repeat; */
+    background: black url("background.png") center center repeat;
     -webkit-background-size: auto;
     -moz-background-size: auto;
     -o-background-size: auto;
@@ -83,7 +83,7 @@ a:hover{
     font-size: 13px;
 }
  .headerLeftOption > a{
-     color: red;
+     color: #ed1e24;
 }
 /*<Navbar.Text>|</Navbar.Text>*/
 
@@ -167,7 +167,7 @@ a:hover{
     text-transform: capitalize;
     /*width: 118px;*/
     outline: none;
-    background-color: #ed1e24;
+    background-color: #231f20;
     color: #fff;
     font-weight: 500;
 }
@@ -271,7 +271,7 @@ hr{
 /**--------------footer-css---------**/
 
 #footer{
-    background-color: #a8aaac;
+    background-color: #231f20;
     padding: 63px 0px;
 }
 #footer .footerSocialWrap{
@@ -293,7 +293,7 @@ hr{
     display: inline-block;
 }
 #footer .footerSocial li a{
-    display: block;
+	display: block;
 }
 #footer .footerCopyright{
     text-align: center;
@@ -301,7 +301,7 @@ hr{
 }
 
 #footer .footerCopyright a, #footer .footerCopyright a:hover{
-  color: #FFFFFF;
+  color: #ed1e24;
   padding: 0px 5px;
   text-decoration: none;
 }

@@ -5,7 +5,6 @@ import website from "../website.png";
 import github from "../github.png";
 import twitter from "../twitter.png";
 import discord from "../discord.png";
-import bitcointalk from "../bitcointalk.png";
 import reddit from "../reddit.png";
 
 export default class Footer extends Component {
@@ -18,32 +17,27 @@ export default class Footer extends Component {
                     <Col xs={12} className="footerSocialWrap">
                         <ul className="footerSocial">
                             <li>
-                                <a href="http://zclassic.org/">
+                                <a href="https://www.anonfork.io/">
                                     <img src={website} alt="website"/>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://github.com/z-classic/zclassic">
+                                <a href="https://github.com/anonymousbitcoin">
                                     <img src={github} alt="github"/>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://twitter.com/ZclassicCoin">
+                                <a href="https://twitter.com/ANON_WeAreANON">
                                     <img src={twitter} alt="twitter"/>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://discord.gg/PmVX5jW">
+                                <a href="https://discord.gg/9XQMspU">
                                     <img src={discord} alt="discord"/>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://bitcointalk.org/index.php?topic=1671982.msg16789011#msg16789011">
-                                    <img src={bitcointalk} alt="bitcointalk"/>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.reddit.com/r/ZClassic/">
+                                <a href="https://www.reddit.com/r/AnonymousBitcoin/">
                                     <img src={reddit} alt="reddit"/>
                                 </a>
                             </li>
@@ -56,10 +50,13 @@ export default class Footer extends Component {
                 </div>
                 <div>
                 <p className="footerCopyright">
-                    <a href="https://github.com/johandjoz/zclassicpaperwallet.com" target="_blank" rel="noopener noreferrer">JavaScript Client-Side ZCLASSIC Wallet Generator</a>
+                    <a href="https://github.com/anonymousbitcoin/anonpaperwallet" target="_blank" rel="noopener noreferrer">JavaScript Client-Side ANON Wallet Generator</a>
                 </p>
                 <p className="footerCopyright">
-                    Send me a memo @ zcH8yxWM5HHkrLKrt9HeTxWYPUqv1kzLYtX44BmkFSvWaixmfibB4U64P81RpDUUtGYuWRW1TPDb4uiB9nPtMfBrBcPv4w7
+                	For vulnerability disclosure, contact the developers at<a href="https://www.anonfork.io/disclosure" target="_blank" rel="noopener noreferrer">anonfork.io/disclosure</a>
+                </p>
+				<p className="footerCopyright">
+                    Please report any issues to the development team at our<a href="https://github.com/anonymousbitcoin/anonpaperwallet/issues" target="_blank" rel="noopener noreferrer">github issues page</a>
                 </p>
                 </div>
             </Grid>

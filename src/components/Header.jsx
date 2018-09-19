@@ -10,7 +10,7 @@ export default class Header extends Component {
             <Navbar id="header" className="zenHeader" fluid={false}>
                 <Navbar.Header>
                     <Navbar.Brand>
-                        <img src={logoFull} alt="logo"/>
+						<img src={logoFull} alt="logo"/>
                     </Navbar.Brand>
                 </Navbar.Header>
                 <Nav pullRight>

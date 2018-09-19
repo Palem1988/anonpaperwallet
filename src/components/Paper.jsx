@@ -3,8 +3,6 @@ import { Row, Col, Button } from 'react-bootstrap';
 import { QRCode }           from 'react-qr-svg';
 import zclassicjs           from 'anonjs';
 
-import art1 from '../zen_paper_front.png';
-import art2 from '../zen_paper_back.png';
 
 class Paper extends Component {
     constructor(props) {
@@ -43,26 +41,19 @@ class Paper extends Component {
                         </Button>
                     </Col>
                 </Row>
-                <Row className="r1">
+                {/* <Row className="r1">
                     <Col xs={12}>
                         <Button onClick={window.print}>
                             Print
                         </Button>
                     </Col>
-                </Row>
+                </Row> */}
                 <hr />
                 {this.state.addr ? (
                     <Row className="r2">
                         <Col xs={12} className="max-width">
 
                             <h2>Overview</h2>
-
-                            <img alt="art1"
-                            className="print-only"
-                            id="art1" src={art1} />
-                            <img alt="art2"
-                            className="print-only"
-                            id="art2" src={art2} />
 
                             <div id="art-area">
 
@@ -112,13 +103,13 @@ class Paper extends Component {
                 <Row className="r3">
                     <Col>
                         <p>
-                          <b>A Paper Wallet</b> is a piece of paper containing a public address and a private key. It allows you to store some Zclassics (ZCLs) offline.
+                          <b>A Paper Wallet</b> is a piece of paper containing a public address and a private key. It allows you to store some ANON offline.
                         </p>
                         <p>
                           These kind of wallets are vulnerable to loss and theft. You should keep it safe like jewels or cash. Therefore it is recommended either to have a backup or to generate it only for temporary use.
                         </p>
                         <p>
-                          <b>When Printing:</b> Print this wallet with Chrome for better image quality.
+                          <b>When Printing:</b> Print this wallet with Chrome for better image quality. If printing does not come out correctly, screen shot the wallet and print it that way.
                         </p>
                     </Col>
                 </Row>
