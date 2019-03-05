@@ -1,6 +1,6 @@
 {
   "name": "anonpaperwallet",
-  "homepage": "paper.anonfork.io",
+  "homepage": "paperwallet.anonfork.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
